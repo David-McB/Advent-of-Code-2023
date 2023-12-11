@@ -7,6 +7,7 @@ import java.util.List;
 public abstract class Solver {
     private final int day;
     String pathFormat;
+
     // Constructor used only when subclass is created
     protected Solver(int day, String pathFormat) throws IOException {
         this.day = day;
